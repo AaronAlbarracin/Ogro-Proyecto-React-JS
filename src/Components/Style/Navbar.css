@@ -1,0 +1,28 @@
+.BackgroundNav {
+    background-color: aliceblue;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.NavOgro {
+
+    color: rgb(39, 53, 115) !important;
+}
+.NavLink {
+    color: #24292F !important;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+.LogoImg {
+    width: 50px;
+    height: 50px;
+}
+span {
+    color: #9bcb20;
+    margin-right: 700px;
+}
+.ItemList {
+    color: #9bcb20;
+}
