@@ -4,8 +4,6 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Ogro from '../../Assets/Img/Ogro.png';
 import CartWidget from '../CartWidget';
-// // import ItemListContainer from '../ItemListContainer';
-
 import '../Style/Navbar.css';
 
 function NavScrollExample() {
