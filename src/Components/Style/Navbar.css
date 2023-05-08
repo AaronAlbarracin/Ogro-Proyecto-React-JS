@@ -1,10 +1,10 @@
 .BackgroundNav {
     background-color: aliceblue;
     width: 100%;
-    position: fixed;
     top: 0;
     left: 0;
     right: 0;
+    box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.867);
 }
 .NavOgro {
 
@@ -21,5 +21,5 @@
 }
 span {
     color: #9bcb20;
-    margin-right: 700px;
+    margin-right: 250px;
 }

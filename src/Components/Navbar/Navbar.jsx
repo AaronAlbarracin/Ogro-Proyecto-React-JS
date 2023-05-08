@@ -1,4 +1,5 @@
 
+import { Link } from "react-router-dom";
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -22,11 +23,12 @@ function NavScrollExample() {
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-            <Nav.Link className='NavLink' href="#action1">Home</Nav.Link>
-            <Nav.Link className='NavLink' href="#action2">Link</Nav.Link>
-            <Nav.Link className='NavLink' href="#">
-            <CartWidget />
-            </Nav.Link>
+            <Link className='NavLink' to={'/'}>Todos</Link>
+            <Link className='NavLink' to={"/category/3"}>Clasicc</Link>
+            <Link className='NavLink' to={"/category/2"}>Furia</Link>
+            <Link className='NavLink' to={"/category/1"}>Magia</Link>
+            <Link className='NavLink' to={"/category/4"}>No Muertos</Link>
+            <Link className='NavLink' to={"cart"}><CartWidget /></Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
