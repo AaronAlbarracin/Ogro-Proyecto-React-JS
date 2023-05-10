@@ -13,9 +13,9 @@ function NavScrollExample() {
       <div>
     <Navbar bg="light" expand="lg">
       <Container fluid>
-        <Navbar.Brand className='NavOgro' href="#">
+        <Link to={'/'} className='NavOgro' href="#">
         <img className='LogoImg' src={Ogro} alt="Ogro" />Ogro <span>S.R.L</span>
-        </Navbar.Brand>
+        </Link>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
@@ -27,7 +27,7 @@ function NavScrollExample() {
             <Link className='NavLink' to={"/category/3"}>Clasicc</Link>
             <Link className='NavLink' to={"/category/2"}>Furia</Link>
             <Link className='NavLink' to={"/category/1"}>Magia</Link>
-            <Link className='NavLink' to={"/category/4"}>No Muertos</Link>
+            <Link className='NavLink' to={"/producto/4"}>No Muertos</Link>
             <Link className='NavLink' to={"cart"}><CartWidget /></Link>
           </Nav>
         </Navbar.Collapse>

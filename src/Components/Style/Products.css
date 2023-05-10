@@ -40,3 +40,21 @@
   .card button:hover {
     background-color: #9bcb20;
   }
+  .DetalleButton {
+    background-color: #9bcb20;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .DetalleButton:hover {
+    background-color: #202221;
+    color: #9bcb20;
+  }
+  

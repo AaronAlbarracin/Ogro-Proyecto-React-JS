@@ -1,0 +1,38 @@
+.Counter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px 0;
+  }
+  
+  .ControlCount {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .NumberCount {
+    margin: 0 10px;
+    font-size: 18px;
+  }
+  .ControlCount {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .ButtonCount {
+    font-size: 15px;
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    margin: 0.35rem;
+  }
+  
+  .NumberCount {
+    margin: 0 1rem;
+    font-size: 1.2rem;
+  }
+  

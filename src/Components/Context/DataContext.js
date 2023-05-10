@@ -4,15 +4,20 @@ import axios from "axios";
 export const dataContext = createContext();
 
 const DataProvider = ({ children }) => {
-    const [data, setData] = useState([]);
-    const [cart, setCart] = useState([]);
+  const [data, setData] = useState([]);
+  const [cart, setCart] = useState([]);
+  const [selectedProduct, setSelectedProduct] = useState(null);
 
-    useEffect(() => {
-        axios("data.json").then((res) => setData(res.data));
-    },[]);
+  const filterProductById = (id) => {
+    const selectedProduct = data.find((product) => product.id === id);
+    setSelectedProduct(selectedProduct);
+  };
 
-    return <dataContext.Provider value={{ data, cart, setCart }}>{children}</dataContext.Provider>
-    
+  useEffect(() => {
+    axios("data.json").then((res) => setData(res.data));
+  },[]);
+
+  return <dataContext.Provider value={{ data, cart, setCart, selectedProduct, filterProductById }}>{children}</dataContext.Provider>
 };
 
 export default DataProvider;

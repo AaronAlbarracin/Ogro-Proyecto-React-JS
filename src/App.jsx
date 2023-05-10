@@ -3,7 +3,7 @@ import Home from "./Components/Home/Home";
 import CartContent from "./Components/CartContent/CartContent";
 import DataProvider from "./Components/Context/DataContext";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Categoria from "./Components/Category/Category";
+import ItemDetailContainer from "./Components/ItemDetailContainer/ItemDetailContainer";
 
 
 function App() {
@@ -12,8 +12,11 @@ function App() {
   <BrowserRouter>
   <Routes>
     <Route path="/" element={<Home />} />
+    <Route path="/category/:categoryId" element={< Home />}/>
+    <Route path="/producto/:productoId" element={< ItemDetailContainer />}/>
+    <Route path="/producto/:productoId/cart" element={<CartContent />}/>
     <Route path="/cart" element={<CartContent />}/>
-    <Route path="/category/:categoryId" element={< Categoria />}/>
+    <Route path="*" element={<h1>404 NOT FOUND</h1>} />
   </Routes>
   </BrowserRouter>
   </DataProvider>
