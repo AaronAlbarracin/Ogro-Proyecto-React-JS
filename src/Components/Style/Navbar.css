@@ -1,25 +1,49 @@
 .BackgroundNav {
     background-color: aliceblue;
     width: 100%;
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;
-    box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.867);
 }
 .NavOgro {
-
-    color: rgb(39, 53, 115) !important;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: #282C34!important;
 }
-.NavLink {
+/* .NavLink {
     color: #24292F !important;
-    margin-left: 100px;
+    margin-left: 50px;
     margin-top: 10px;
-}
+} */
 .LogoImg {
     width: 50px;
     height: 50px;
 }
 span {
+    color:#9BCB20;
+    margin-right: 400px;
+}
+.ItemList {
     color: #9bcb20;
-    margin-right: 250px;
+}
+.NavLinkOn {
+    text-decoration: none;
+    margin-left: 20px;
+    color: #9bcb20;
+    font-size: 1.5em;
+}
+.NavLinkOn:hover {
+    color:darkcyan
+}
+
+
+.NavLinkOff {
+    text-decoration: none;
+    margin-left: 50px;
+    color: #282C34;
+}
+.NavLinkOff:hover {
+    color:#9BCB20;
 }

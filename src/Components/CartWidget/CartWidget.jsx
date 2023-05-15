@@ -1,7 +1,9 @@
 // ICONO
+import "../Style/CartWidget.css"
+
 const CartWidget =()=> {
     return(
-        <i className="bi bi-cart4"></i>
+        <i className="CartWidget bi bi-cart4">5</i>
     )
 }
 export default CartWidget;

@@ -12,10 +12,6 @@
     align-items: center;
   }
   
-  .NumberCount {
-    margin: 0 10px;
-    font-size: 18px;
-  }
   .ControlCount {
     display: flex;
     align-items: center;
@@ -23,16 +19,39 @@
   }
   
   .ButtonCount {
+    width: 3em;
     font-size: 15px;
-    background-color: #f0f0f0;
+    color: white;
+    background-color: #9bcb20;
     border: none;
     border-radius: 0.25rem;
     cursor: pointer;
     margin: 0.35rem;
   }
+  .ButtonCount:hover {
+    color:#9bcb20;
+    background-color: #363940;
+  }
   
   .NumberCount {
     margin: 0 1rem;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
   }
-  
+  .AgregarCart {
+    background-color: #9bcb20;
+    color: white;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+  }
+  .AgregarCart:hover {
+    background-color:#363940;
+    color:#9bcb20;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+  }

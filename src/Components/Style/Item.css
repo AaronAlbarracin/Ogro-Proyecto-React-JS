@@ -1,0 +1,57 @@
+.CardItem {
+    background-color: aliceblue;
+    border: 1px solid  #9bcb20;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+    width: 300px;
+    float: left;
+    margin-right: 20px;
+    color:#282C34;
+}
+
+.CardItem:not(:last-child) {
+  margin-right: 20px;
+}
+  
+  
+  .Header {
+    margin-bottom: 10px;
+  }
+  
+  .ItemHeader {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .ItemImg {
+    width: 100%;
+  }
+  
+  .Info {
+    margin: 0;
+  }
+  
+  .ItemFooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .Option {
+    background-color: #9bcb20;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 20%;
+    padding: 10px 20px;
+    width: 150px;
+  }
+  .Option:hover {
+    background-color: #282C34;
+    color: #9bcb20;
+  }
