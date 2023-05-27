@@ -1,0 +1,29 @@
+.CarritoFinal {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .CarritoFinal h4,
+  .CarritoFinal p {
+    margin: 0;
+    flex: 1;
+  }
+  
+  .CarritoFinal p {
+    margin-right: 10px;
+  }
+  
+  .CarritoFinal button {
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+
+  .CarritoFinal button:hover {
+    color:black  }
+  
