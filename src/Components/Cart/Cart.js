@@ -28,7 +28,7 @@ const Cart = () => {
       <button onClick={() => clearCart()} className="Option2">
         Vaciar Carrito
       </button>
-      <Link to="/checkout" className="Option2">
+      <Link to="/confirmation" className="Option2">
         Confirmar
       </Link>
     </div>
